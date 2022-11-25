@@ -1,0 +1,8 @@
+D:\MyC#\LearnFunction\learnFunction\bin\Debug\learnFunction.exe.config
+D:\MyC#\LearnFunction\learnFunction\bin\Debug\learnFunction.exe
+D:\MyC#\LearnFunction\learnFunction\bin\Debug\learnFunction.pdb
+D:\MyC#\LearnFunction\learnFunction\obj\Debug\learnFunction.csproj.AssemblyReference.cache
+D:\MyC#\LearnFunction\learnFunction\obj\Debug\learnFunction.csproj.SuggestedBindingRedirects.cache
+D:\MyC#\LearnFunction\learnFunction\obj\Debug\learnFunction.csproj.CoreCompileInputs.cache
+D:\MyC#\LearnFunction\learnFunction\obj\Debug\learnFunction.exe
+D:\MyC#\LearnFunction\learnFunction\obj\Debug\learnFunction.pdb
