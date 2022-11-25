@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,31 +11,28 @@ namespace learnFunction
 {
     internal class Program
     {
-
-        static void DigitCountSum(int num)
+        // 123  --> 321
+        static void InvertDigit(int num)
         {
-            int count = 0, RaqamlarSum = 0, kerakliRaqam = 0;
-            kerakliRaqam = num;
-            while (num != 0)
+            int teskariRaqam;
+            teskariRaqam = num;
+            while(num != 0)
             {
-                RaqamlarSum += kerakliRaqam % 10;
-                kerakliRaqam /= 10;
+                Console.Write(teskariRaqam % 10);
+                teskariRaqam/= 10;
                 num /= 10;
-                count++;
             }
-
-            Console.WriteLine($"raqamlar soni : {count}, raqamlari yigindisi : {RaqamlarSum}");
+            Console.WriteLine("\n");
         }
+        
         static void Main(string[] args)
         {
-            int a;
+            int num;
             for (int i = 0; i < 3; i++)
             {
-                a = Convert.ToInt32(Console.ReadLine());
-                DigitCountSum(a);
+                num = Convert.ToInt32(Console.ReadLine());
+                InvertDigit(num);
             }
-            //Console.WriteLine(1/10);
-
         }
     }
 }
